@@ -45,9 +45,7 @@ footer li{
   font-family: 'Open Sans', sans-serif;
   font-size: 14pt;
   color: #fff;
-  border: 1px solid #fff;
   padding: 5px 10px;
-  border-radius: 5px;
 }
 .logo:hover{
   color: #fff;
