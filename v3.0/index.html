@@ -20,31 +20,10 @@
     <title>Future Station</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Our People</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Perspectives</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">How We Help</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+
+    <div id="vuenav">
+
+    </div>
 
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -57,17 +36,17 @@
         <div class="carousel-item active">
           <img class="d-block w-100" src="img/buildings2.jpg" alt="First slide">
           <div class="carousel-caption d-none d-md-block">
-            <h2>We work with corporate clients around the world to help them acheive sustainable business growth thorugh responsible business building.</h2>
+            <h2>FutureStation is a global sustainability advisory firm specializing in building value of business through sustainable initiatives</h2>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="img/buildings3.jpg" alt="Second slide"><div class="carousel-caption d-none d-md-block">
-            <h2>Future Station is a global sustainable advisory firm specialising in buidling value of business thorugh responsible advisors.</h2>
+            <h2>We help businesses build trust among investors, analysts and other stakeholders</h2>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="img/buildings4.jpeg" alt="Third slide"><div class="carousel-caption d-none d-md-block">
-            <h2>We help business build trusting investors analysts and stakeholders.</h2>
+            <h2>We work with corporate clients around the world to help them achieve sustainable growth through compliant and responsible business actions</h2>
           </div>
         </div>
       </div>
@@ -89,7 +68,7 @@
       <section>
         <div class="row">
             <div class="col-md-6">
-              <img src="img/bridge.jpeg" class="img-fluid foo" alt="">
+              <img src="img/car-racing.jpeg" class="img-fluid foo" alt="">
             </div>
             <div class="col-md-6 text1">
               <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nihil, impedit dolor praesentium? Aliquam earum, quidem et ad ratione reprehenderit, maiores ducimus culpa facilis quaerat enim, praesentium sed similique ipsam.</div>
@@ -120,57 +99,14 @@
       </section>
     </div>
 
-    <footer class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 sml">
-            <h3>Social Media Links</h3>
-            <ul>
-              <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-              <li><a href="https://twitter.com/FutureStation18"><i class="fa fa-twitter fa-lg"></i></a></li>
-              <li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h3>Important Links</h3>
-            <ul>
-              <li><a href="">About Us</a></li>
-              <li><a href="">How We Help</a></li>
-              <li><a href="">Perspectives</a></li>
-              <li><a href="">How We Help</a></li>
-              <li><a href="">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 contact">
-            <h3>Contact Us</h3>
-            <ul>
-              <li>
-                123 Abc Road <br>
-                Kolkata 700068
-              </li>
-              <li>
-                Sudipta Das <br>
-                <a href="mailto:emailus@futurestn.com">emailus@futurestn.com</a>
-              </li>
-              <li>
-                +91 (33) 66153430
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <div class="copyright container-fluid">
-      <div class="container">
-        &copy; www.futurestn.com 2018 - All Rights Reserved.
-      </div>
-    </div>
+    <div id="vuefooter"></div>
 
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     <!-- Scroll Reveal -->
@@ -186,6 +122,11 @@
     sr.reveal('.text1', { origin: 'right' }, 2000);
     sr.reveal('.life', { origin: 'right', duration: 1500 });
     sr.reveal('.fantasy', { origin: 'right' }, 500);
+    </script>
+
+    <!-- active class addition -->
+    <script type="text/javascript">
+      // $('.nav-item:nth-child(1)').addClass('active');
     </script>
   </body>
 </html>

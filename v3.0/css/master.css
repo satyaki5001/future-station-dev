@@ -7,7 +7,7 @@ section{
   color: #fff;
 }
 .right-side-detail{
-  background: url('../img/side-bg.jpg');
+  background: url('../img/rowing.jpg');
   background-position: center;
   background-size: cover;
   padding: 75px;
@@ -53,4 +53,17 @@ footer li{
 }
 .carousel-caption {
   text-shadow: 1px 2px #000;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  background-color: #086dd8;
+  color: #fff;
+}
+
+.active > .nav-link{
+  background-color: #086dd8;
+  color: #fff;
 }
